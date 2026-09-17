@@ -2,7 +2,8 @@ count = 1
 total = 0
 
 # BUG: Added the missing colon after the while condition.
-while count < 5:
+# BUG: Changed < to <= so the loop also includes 5.
+while count <= 5:
     total = total + count
     count = count + 1
 
