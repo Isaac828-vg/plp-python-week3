@@ -6,4 +6,5 @@ while count < 5:
     total = total + count
     count = count + 1
 
-print("Sum of 1 to 5 is: " + total)
+# BUG: Converted total to a string so it can be joined with the message.
+print("Sum of 1 to 5 is: " + str(total))
